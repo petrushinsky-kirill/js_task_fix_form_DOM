@@ -10,5 +10,5 @@ for (const input of inputsCollection) {
   label.textContent = input.name.toUpperCase();
   input.placeholder = input.name[0].toUpperCase() + input.name.slice(1);
 
-  input.after(label);
+  input.before(label);
 }
